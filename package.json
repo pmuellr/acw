@@ -1,0 +1,31 @@
+{
+  "name": "acw",
+  "version": "0.0.1",
+  "description": "Amazon CloudWatch utility",
+  "main": "acw",
+  "license": "MIT",
+  "author": "Patrick Mueller <pmuellr@apache.org> (https://github.com/pmuellr)",
+  "keywords": [
+    "Amazon",
+    "CloudWatch"
+  ],
+  "bin": {
+    "acw": "acw.js"
+  },
+  "scripts": {
+    "standard": "standard",
+    "watch": "nodemon --exec 'npm run standard' --ext js,json"
+  },
+  "devDependencies": {
+    "nodemon": "~1.9.1",
+    "standard": "~6.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pmuellr/acw.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pmuellr/acw/issues"
+  },
+  "homepage": "https://github.com/pmuellr/acw"
+}
